@@ -38,11 +38,6 @@ const SmartDatabase = () => {
         }}
       >
         <Row gutter={[24, 24]} style={{ marginBottom: '8px' }}>
-          <Col span={24}>
-            <Title level={2} style={{ color: 'white' }}>
-              Correlation Analysis
-            </Title>
-          </Col>
         </Row>
         <Row
           gutter={[24, 24]}
