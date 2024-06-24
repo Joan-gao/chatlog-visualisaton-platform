@@ -44,7 +44,6 @@ This project represents our solution for Challenge 4 of the WAPOL x WADSIH Hacka
 | 200 | 2023-08-20 07:35 | Observed suspect...       |
 | 003 | 2023-08-20 08:25 | Received ANPR hit...      |
 | 023 | 2023-08-20 09:15 | Followed suspect...       |
-| 009 | 2023-08-20 10:05 | Obtained CCTV footage...  |
 
 **2. Key Entities Overview**
 
@@ -75,7 +74,7 @@ This project represents our solution for Challenge 4 of the WAPOL x WADSIH Hacka
 | 2023-08-20 10:05 | Officer John Roberts | Obtained CCTV footage from nearby business at 5678 Pine Road.                       |       |
 
 ## Links:
-- ([Preview](https://drive.google.com/file/d/12pQbA4ywGYH6YanbJhsRlm3OlnadnIaQ/view?usp=sharing))
+- ([Preview](chatlog-visualization.web.app))
 
 - ([Demo Video](https://drive.google.com/file/d/12pQbA4ywGYH6YanbJhsRlm3OlnadnIaQ/view?usp=sharing))
 
