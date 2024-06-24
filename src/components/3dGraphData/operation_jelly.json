@@ -1,0 +1,269 @@
+{
+  "nodes": [
+    { "id": "person_0", "label": "Person", "name": "vehicle to" },
+    {
+      "id": "person_1",
+      "label": "Person",
+      "name": "Rebecca Lee to a larger fraud network"
+    },
+    {
+      "id": "person_2",
+      "label": "Person",
+      "name": "Rebecca Lee meeting with accomplice Marcus Chen at"
+    },
+    {
+      "id": "person_3",
+      "label": "Person",
+      "name": "Rebecca Lee and Marcus Chen carrying documents"
+    },
+    { "id": "person_4", "label": "Person", "name": "Rebecca Lee" },
+    {
+      "id": "person_5",
+      "label": "Person",
+      "name": "Rebecca Lee interacting with several individuals inside"
+    },
+    {
+      "id": "person_6",
+      "label": "Person",
+      "name": "Rebecca Lee interacting with known associate"
+    },
+    {
+      "id": "person_7",
+      "label": "Person",
+      "name": "Rebecca Lee posting on Facebook Marketplace offering financial consulting services"
+    },
+    {
+      "id": "person_8",
+      "label": "Person",
+      "name": "Rebecca Lee to station for processing"
+    },
+    {
+      "id": "person_9",
+      "label": "Person",
+      "name": "Rebecca Lee in relation to suspected fraud activities in Perth Metropolitan area"
+    },
+    {
+      "id": "person_10",
+      "label": "Person",
+      "name": "vehicle linked to other locations"
+    },
+    {
+      "id": "person_11",
+      "label": "Person",
+      "name": "Rebecca Lee and accomplice Marcus Chen"
+    },
+    { "id": "officer_0", "label": "Officer", "name": "Officer Luis Hernandez" },
+    { "id": "officer_1", "label": "Officer", "name": "Officer Amara Singh" },
+    { "id": "officer_2", "label": "Officer", "name": "Officer Mei Lin" },
+    { "id": "officer_3", "label": "Officer", "name": "Officer Alexei Volkov" },
+    { "id": "event_0", "label": "Event", "name": "Initiated surveillance" },
+    {
+      "id": "event_1",
+      "label": "Event",
+      "name": "Conducted Telco Ping extract"
+    },
+    { "id": "event_2", "label": "Event", "name": "Received ANPR hit" },
+    { "id": "event_3", "label": "Event", "name": "Obtained CCTV footage" },
+    { "id": "event_4", "label": "Event", "name": "Followed" },
+    {
+      "id": "location_0",
+      "label": "Location",
+      "name": "2345 Spruce Avenue, Perth"
+    },
+    {
+      "id": "location_1",
+      "label": "Location",
+      "name": "910 Cedar Road, Perth"
+    },
+    {
+      "id": "location_2",
+      "label": "Location",
+      "name": "6789 Elm Street, Perth"
+    },
+    {
+      "id": "location_3",
+      "label": "Location",
+      "name": "5678 Pine Road, Perth"
+    },
+    {
+      "id": "location_4",
+      "label": "Location",
+      "name": "345 Cedar Lane, Perth"
+    },
+    {
+      "id": "anpr_image_0",
+      "label": "ANPR_Image",
+      "name": "ANPR_Image-20-08-2024-08-25.png"
+    },
+    {
+      "id": "cctv_footage_0",
+      "label": "CCTV_Footage",
+      "name": "CCTV_Footage-20-08-2024-10-05.png"
+    }
+  ],
+  "links": [
+    {
+      "source": "officer_0",
+      "target": "person_9",
+      "type": "INVOLVED_IN",
+      "date": "30/08/2023",
+      "time": "06:55"
+    },
+    {
+      "source": "person_9",
+      "target": "event_0",
+      "type": "INVOLVED_IN",
+      "date": "30/08/2023",
+      "time": "06:55"
+    },
+    {
+      "source": "officer_1",
+      "target": "person_2",
+      "type": "INVOLVED_IN",
+      "date": "30/08/2023",
+      "time": "07:40"
+    },
+    {
+      "source": "person_2",
+      "target": "event_0",
+      "type": "INVOLVED_IN",
+      "date": "30/08/2023",
+      "time": "07:40"
+    },
+    {
+      "source": "officer_3",
+      "target": "person_0",
+      "type": "INVOLVED_IN",
+      "date": "30/08/2023",
+      "time": "09:10"
+    },
+    {
+      "source": "person_0",
+      "target": "event_4",
+      "type": "INVOLVED_IN",
+      "date": "30/08/2023",
+      "time": "09:10"
+    },
+    {
+      "source": "officer_0",
+      "target": "person_3",
+      "type": "INVOLVED_IN",
+      "date": "30/08/2023",
+      "time": "09:55"
+    },
+    {
+      "source": "person_3",
+      "target": "event_3",
+      "type": "INVOLVED_IN",
+      "date": "30/08/2023",
+      "time": "09:55"
+    },
+    {
+      "source": "officer_1",
+      "target": "person_8",
+      "type": "INVOLVED_IN",
+      "date": "30/08/2023",
+      "time": "10:40"
+    },
+    {
+      "source": "person_8",
+      "target": "event_1",
+      "type": "INVOLVED_IN",
+      "date": "30/08/2023",
+      "time": "10:40"
+    },
+    {
+      "source": "officer_2",
+      "target": "person_4",
+      "type": "INVOLVED_IN",
+      "date": "30/08/2023",
+      "time": "12:10"
+    },
+    {
+      "source": "person_4",
+      "target": "event_4",
+      "type": "INVOLVED_IN",
+      "date": "30/08/2023",
+      "time": "12:10"
+    },
+    {
+      "source": "officer_2",
+      "target": "person_0",
+      "type": "INVOLVED_IN",
+      "date": "31/08/2023",
+      "time": "08:05"
+    },
+    {
+      "source": "person_0",
+      "target": "event_5",
+      "type": "INVOLVED_IN",
+      "date": "31/08/2023",
+      "time": "08:05"
+    },
+    {
+      "source": "officer_1",
+      "target": "person_4",
+      "type": "INVOLVED_IN",
+      "date": "01/09/2023",
+      "time": "08:15"
+    },
+    {
+      "source": "person_4",
+      "target": "event_5",
+      "type": "INVOLVED_IN",
+      "date": "01/09/2023",
+      "time": "08:15"
+    },
+    {
+      "source": "officer_1",
+      "target": "person_6",
+      "type": "INVOLVED_IN",
+      "date": "01/09/2023",
+      "time": "11:15"
+    },
+    {
+      "source": "person_6",
+      "target": "event_0",
+      "type": "INVOLVED_IN",
+      "date": "01/09/2023",
+      "time": "11:15"
+    },
+    {
+      "source": "event_0",
+      "target": "location_0",
+      "type": "OCCURRED_AT",
+      "date": "30/08/2023",
+      "time": "07:40"
+    },
+    {
+      "source": "event_2",
+      "target": "location_3",
+      "type": "OCCURRED_AT",
+      "date": "30/08/2023",
+      "time": "08:25"
+    },
+    {
+      "source": "event_5",
+      "target": "location_1",
+      "type": "OCCURRED_AT",
+      "date": "30/08/2023",
+      "time": "09:10"
+    },
+    {
+      "source": "event_5",
+      "target": "location_4",
+      "type": "OCCURRED_AT",
+      "date": "31/08/2023",
+      "time": "08:05"
+    },
+    {
+      "source": "event_0",
+      "target": "location_2",
+      "type": "OCCURRED_AT",
+      "date": "01/09/2023",
+      "time": "11:15"
+    },
+    { "source": "event_2", "target": "anpr_image_0", "type": "HAS_IMAGE" },
+    { "source": "event_3", "target": "cctv_footage_0", "type": "HAS_IMAGE" }
+  ]
+}

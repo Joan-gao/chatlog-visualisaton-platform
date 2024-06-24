@@ -1,0 +1,224 @@
+{
+  "nodes": [
+    {
+      "id": "suspect_CarlosMendes",
+      "label": "Suspect",
+      "name": "Carlos Mendes",
+      "description": "Main suspect in a series of thefts and drug trafficking activities."
+    },
+    {
+      "id": "suspect_IvanPetrov",
+      "label": "Suspect",
+      "name": "Ivan Petrov",
+      "description": "Accomplice of Carlos Mendes involved in illegal activities."
+    },
+    {
+      "id": "Officer_JohnRoberts",
+      "label": "Officer",
+      "name": "Officer John Roberts",
+      "description": "Lead officer on the case, responsible for initiating surveillance."
+    },
+    {
+      "id": "Officer_EmilyClark",
+      "label": "Officer",
+      "name": "Officer Emily Clark",
+      "description": "Officer involved in surveillance and data analysis."
+    },
+    {
+      "id": "Officer_DavidWilson",
+      "label": "Officer",
+      "name": "Officer David Wilson",
+      "description": "Officer responsible for tracking and evidence collection."
+    },
+    {
+      "id": "Officer_LauraJones",
+      "label": "Officer",
+      "name": "Officer Laura Jones",
+      "description": "Officer involved in covert operations and arrests."
+    },
+    {
+      "id": "event_InitiatedSurveillance",
+      "label": "Event",
+      "name": "Initiated Surveillance",
+      "description": "Surveillance on the main suspect was initiated."
+    },
+    {
+      "id": "suspect_ThomasGreen",
+      "label": "Suspect",
+      "name": "Thomas Green",
+      "description": "Man in a black hoodie suspected of attempted murder, registered owner of a blue Ford Focus."
+    },
+    {
+      "id": "victim",
+      "label": "Victim",
+      "name": "Unidentified Victim",
+      "description": "Individual in critical condition due to an attempted murder in Northbridge."
+    },
+    {
+      "id": "detective_Wilson",
+      "label": "Detective",
+      "name": "Detective Wilson",
+      "description": "Lead investigator on the attempted murder case."
+    },
+    {
+      "id": "sergeant_Davis",
+      "label": "Sergeant",
+      "name": "Sergeant Davis",
+      "description": "Supervising officer coordinating the investigation and team efforts."
+    },
+    {
+      "id": "officer_Parker",
+      "label": "Officer",
+      "name": "Officer Parker",
+      "description": "Officer responsible for witness canvassing and social media investigation."
+    },
+    {
+      "id": "officer_Lee",
+      "label": "Officer",
+      "name": "Officer Lee",
+      "description": "Officer in charge of reviewing CCTV footage and enhancing images."
+    },
+    {
+      "id": "event_AttemptedMurder",
+      "label": "Event",
+      "name": "Attempted Murder Incident",
+      "description": "An incident occurred at 250 James St, Northbridge, with the victim critically injured."
+    },
+    { "id": "suspect_MickH", "label": "Suspect", "name": "Mick H." },
+    { "id": "suspect_SamR", "label": "Suspect", "name": "Sam R." },
+    { "id": "officer_CstTurner", "label": "Officer", "name": "Cst. Turner" },
+    { "id": "officer_CstPatel", "label": "Officer", "name": "Cst. Patel" },
+    { "id": "officer_SgtMiller", "label": "Officer", "name": "Sgt. Miller" },
+    {
+      "id": "location_45HighSt",
+      "label": "Location",
+      "name": "45 High St, Fremantle"
+    },
+    {
+      "id": "location_55AdelaideTerrace",
+      "label": "Location",
+      "name": "55 Adelaide Terrace, East Perth"
+    },
+    {
+      "id": "location_89StirlingHwy",
+      "label": "Location",
+      "name": "89 Stirling Hwy, Nedlands"
+    },
+    {
+      "id": "event_DrugFirearmsOperation",
+      "label": "Event",
+      "name": "Drug and Firearms Operation"
+    }
+  ],
+  "links": [
+    {
+      "source": "Officer_JohnRoberts",
+      "target": "event_InitiatedSurveillance",
+      "type": "INITIATED",
+      "date": "20/08/2023",
+      "time": "06:45"
+    },
+    {
+      "source": "event_InitiatedSurveillance",
+      "target": "suspect_CarlosMendes",
+      "type": "SURVEILLED",
+      "date": "20/08/2023",
+      "time": "06:45"
+    },
+    {
+      "source": "detective_Wilson",
+      "target": "event_AttemptedMurder",
+      "type": "ASSIGNED_TO",
+      "date": "15/06/2024",
+      "time": "08:40"
+    },
+    {
+      "source": "suspect_ThomasGreen",
+      "target": "event_AttemptedMurder",
+      "type": "IMPACTED",
+      "date": "15/06/2024",
+      "time": "08:40"
+    },
+    {
+      "source": "officer_Parker",
+      "target": "suspect_ThomasGreen",
+      "type": "IDENTIFIED_VIA_PLATE",
+      "date": "15/06/2024",
+      "time": "09:40"
+    },
+    {
+      "source": "officer_Lee",
+      "target": "suspect_ThomasGreen",
+      "type": "IDENTIFIED_IN_CCTV",
+      "date": "15/06/2024",
+      "time": "10:30"
+    },
+    {
+      "source": "officer_Parker",
+      "target": "suspect_ThomasGreen",
+      "type": "FOUND_SOCIAL_MEDIA_POST",
+      "date": "15/06/2024",
+      "time": "10:20"
+    },
+    {
+      "source": "officer_SgtMiller",
+      "target": "event_DrugFirearmsOperation",
+      "type": "SUPERVISING"
+    },
+    {
+      "source": "suspect_MickH",
+      "target": "location_45HighSt",
+      "type": "PROPOSED_MEETING_AT"
+    },
+    {
+      "source": "officer_CstTurner",
+      "target": "suspect_MickH",
+      "type": "CONTACTED_AS_BUYER"
+    },
+    {
+      "source": "officer_CstPatel",
+      "target": "suspect_SamR",
+      "type": "MONITORING_LISTINGS"
+    },
+    {
+      "source": "suspect_MickH",
+      "target": "event_DrugFirearmsOperation",
+      "type": "INVOLVED_IN"
+    },
+    {
+      "source": "suspect_SamR",
+      "target": "event_DrugFirearmsOperation",
+      "type": "POSSIBLE_COLLUSION"
+    },
+    {
+      "source": "officer_CstTurner",
+      "target": "location_45HighSt",
+      "type": "AT_SURVEILLANCE"
+    },
+    {
+      "source": "officer_CstPatel",
+      "target": "location_55AdelaideTerrace",
+      "type": "ANPR_CHECK"
+    },
+    {
+      "source": "suspect_MickH",
+      "target": "location_55AdelaideTerrace",
+      "type": "LINKED_VEHICLE_SPOTTED"
+    },
+    {
+      "source": "officer_CstTurner",
+      "target": "event_DrugFirearmsOperation",
+      "type": "GATHERING_INTEL"
+    },
+    {
+      "source": "officer_CstPatel",
+      "target": "suspect_SamR",
+      "type": "TRACKING_PHONE_PING"
+    },
+    {
+      "source": "suspect_SamR",
+      "target": "location_89StirlingHwy",
+      "type": "NEW_LOCATION_IDENTIFIED"
+    }
+  ]
+}
