@@ -34,7 +34,7 @@ This project represents our solution for Challenge 4 of the WAPOL x WADSIH Hacka
 
 3. **Associative Analysis with 3D Knowledge Graph**: The smart database page combines chatbot and 3D knowledge graph technologies to generate associative analysis graphs online. The chatbot queries data relationships, which are then visualized in a 3D knowledge graph, enabling users to explore connections between nodes.
 
-**Data Analysis Examples**
+## **Data Analysis Examples**
 
 **1. Overall Timeline**
 
@@ -74,9 +74,10 @@ This project represents our solution for Challenge 4 of the WAPOL x WADSIH Hacka
 | 2023-08-20 09:15 | Officer Laura Jones  | Followed suspect vehicle to 5678 Pine Road, Perth.                                  |       |
 | 2023-08-20 10:05 | Officer John Roberts | Obtained CCTV footage from nearby business at 5678 Pine Road.                       |       |
 
-## Useful Links:
+## Links:
+- ([Preview](https://drive.google.com/file/d/12pQbA4ywGYH6YanbJhsRlm3OlnadnIaQ/view?usp=sharing))
 
-- ([Project Demo Video](https://drive.google.com/file/d/12pQbA4ywGYH6YanbJhsRlm3OlnadnIaQ/view?usp=sharing))
+- ([Demo Video](https://drive.google.com/file/d/12pQbA4ywGYH6YanbJhsRlm3OlnadnIaQ/view?usp=sharing))
 
 - ([Pitch Deck](https://drive.google.com/file/d/1a72KiaWNZy_RF3DWihqkiE9QrL39gGF1/view?usp=sharing))
 
