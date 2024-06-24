@@ -76,7 +76,7 @@ This project represents our solution for Challenge 4 of the WAPOL x WADSIH Hacka
 
 ## Useful Links:
 
-- ([Project Demo Video](https://drive.google.com/file/d/12pQbA4ywGYH6YanbJhsRlm3OlnadnIaQ/view?usp=sharing)) -->
+- ([Project Demo Video](https://drive.google.com/file/d/12pQbA4ywGYH6YanbJhsRlm3OlnadnIaQ/view?usp=sharing))
 
 - ([Pitch Deck](https://drive.google.com/file/d/1a72KiaWNZy_RF3DWihqkiE9QrL39gGF1/view?usp=sharing))
 
