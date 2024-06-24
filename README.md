@@ -84,4 +84,4 @@ This project represents our solution for Challenge 4 of the WAPOL x WADSIH Hacka
 ## Contributors
 
 - [Xinyi Gao](www.linkedin.com/in/kahshinang): Product Design, Front-end Development
-- [Li Cui](www.linkedin.com/in/li-cui-73809027b): Data Analysis, AI intergration
+- [Li Cui](www.linkedin.com/in/li-cui-73809027b): Data Analysis, AI integration
