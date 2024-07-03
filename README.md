@@ -74,7 +74,7 @@ This project represents our solution for Challenge 4 of the WAPOL x WADSIH Hacka
 | 2023-08-20 10:05 | Officer John Roberts | Obtained CCTV footage from nearby business at 5678 Pine Road.                       |       |
 
 ## Links:
-- ([Demo Video](https://drive.google.com/file/d/12pQbA4ywGYH6YanbJhsRlm3OlnadnIaQ/view?usp=sharing))
+- ([Demo Video](https://youtu.be/y_t_bSmGGlI))
 
 - ([Pitch Deck](https://drive.google.com/file/d/1a72KiaWNZy_RF3DWihqkiE9QrL39gGF1/view?usp=sharing))
 
