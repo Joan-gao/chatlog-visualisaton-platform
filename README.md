@@ -78,6 +78,8 @@ This project represents our solution for Challenge 4 of the WAPOL x WADSIH Hacka
 
 - ([Pitch Deck](https://drive.google.com/file/d/1a72KiaWNZy_RF3DWihqkiE9QrL39gGF1/view?usp=sharing))
 
+- ([linkedin Post](https://www.linkedin.com/posts/xinyi-gao-cn_police-hackathon-genai-activity-7210819530393075712-B2ML?utm_source=share&utm_medium=member_desktop))
+
 ## Contributors
 
 - [Xinyi Gao](www.linkedin.com/in/kahshinang): Product Design, Front-end Development
